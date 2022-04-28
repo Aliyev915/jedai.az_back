@@ -1,0 +1,77 @@
+@media only screen and (max-width: 700px) {
+     .navbar {
+        width: 90% !important;
+        margin-top: 25px;
+      }
+       .navbar img {
+        width: 100px !important;
+        height: auto !important;
+      }
+     
+       .navbar .langThings {
+        display: block !important;
+        margin-left: 0px !important;
+        margin-top: -5px;
+      }
+       .navbar .langCont {
+        /*margin-right: 0px !important;*/
+      }
+       .navbar .logoAndText {
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+      }
+       .navbar .menuIcon {
+        width: 50px !important;
+        -webkit-transform: scale(0.7);
+                transform: scale(0.7);
+        margin-top: -15px !important;
+      }
+
+   
+       .navbarContainer {
+        height: 65px !important;
+      }
+      
+       .navbar .phoneNumber {
+    display: none !important;
+    }
+     .navbar .langThings {
+        display: flex !important;
+    }
+        .secondPage .navbar .phoneNumber {
+        display: none !important;
+    }
+    
+     .navbar .logoAndText {
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-right: 10px !important;		
+    }
+    
+    
+    
+}
+
+
+@media only screen and (max-width: 1250px) {
+
+    .secondPage .navbarContainer {
+        height: 65px !important;
+      }
+       .navbar .phoneNumber {
+        display: none !important;
+      }
+       .navbar .langThings {
+        display: flex !important;
+      }
+      
+       .navbar .logoAndText {
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-right: 10px !important;		
+      }
+
+}

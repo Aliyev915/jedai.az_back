@@ -1,0 +1,360 @@
+
+ .menuOverlay {
+    width: 99.99%;
+    height: 0vh;
+    position: absolute;
+    top: 0.01px;
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    background-color: white;
+    position: fixed;
+    z-index: 100;
+  }
+  
+   .menuOverlay .fText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    pointer-events: none;
+  }
+  
+   .menuOverlay .fText .container {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content:center;
+    column-gap: 50px;
+    row-gap:20px;
+    flex-wrap: wrap;   
+
+  }
+
+  .menuOverlay .fText .container div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* row-gap:30px; */
+  }
+  .menuOverlay .fText .container div span{
+    margin-bottom: 30px;
+  }
+   .menuOverlay .fText p {
+    font-size: 25px;
+    color: #464141;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+   .menuOverlay .fText span {
+    font-size: 25px;
+    color: #464141;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+   .menuOverlay .fText span:nth-child(1) {
+    margin-right: 35px;
+    padding-right: 35px;
+    border-right: 1px solid #464141;
+    pointer-events: none;
+    cursor: pointer;
+  }
+  
+   .menuOverlay .fText span:nth-child(1) a {
+    text-decoration: none;
+    color: black;
+  }
+  
+   .menuOverlay .fText span:nth-child(1) a {
+    -webkit-transition: 0.5s color !important;
+    transition: 0.5s color !important;
+    color: black;
+  }
+  
+   .menuOverlay .fText span:nth-child(1):hover a {
+    color: #ff0335;
+    -webkit-transition: 0.5s color !important;
+    transition: 0.5s color !important;
+  }
+  
+   .menuOverlay .fText span:nth-child(2) {
+    margin-right: 35px;
+    padding-right: 35px;
+    border-right: 1px solid #464141;
+    pointer-events: none;
+    cursor: pointer;
+  }
+  
+   .menuOverlay .fText span:nth-child(2) a {
+    text-decoration: none;
+    color: black;
+  }
+  
+   .menuOverlay .fText span:nth-child(2) a {
+    -webkit-transition: 0.5s color !important;
+    transition: 0.5s color !important;
+    color: black;
+  }
+  
+   .menuOverlay .fText span:nth-child(2):hover a {
+    color: #ff0335;
+    -webkit-transition: 0.5s color !important;
+    transition: 0.5s color !important;
+  }
+  
+   
+   .menuOverlay .fText span:nth-child(3) {
+    margin-right: 35px;
+    padding-right: 35px;
+    border-right: 1px solid #464141;
+    pointer-events: none;
+    cursor: pointer;
+  }
+  
+   .menuOverlay .fText span:nth-child(3) a {
+    text-decoration: none;
+    color: black;
+  }
+  
+   .menuOverlay .fText span:nth-child(3) a {
+    -webkit-transition: 0.5s color !important;
+    transition: 0.5s color !important;
+    color: black;
+  }
+  
+   .menuOverlay .fText span:nth-child(3):hover a {
+    color: #ff0335;
+    -webkit-transition: 0.5s color !important;
+    transition: 0.5s color !important;
+  }
+
+  .menuOverlay .fText span:nth-child(4) {
+    pointer-events: none;
+    cursor: pointer;
+  }
+  
+   .menuOverlay .fText span:nth-child(4) a {
+    text-decoration: none;
+    color: black;
+  }
+  
+   .menuOverlay .fText span:nth-child(4) a {
+    -webkit-transition: 0.5s color !important;
+    transition: 0.5s color !important;
+    color: black;
+  }
+  
+   .menuOverlay .fText span:nth-child(4):hover a {
+    color: #ff0335;
+    -webkit-transition: 0.5s color !important;
+    transition: 0.5s color !important;
+  }
+  
+   .menuOverlay .overlayMainText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 80vh;
+    width: 100%;
+    pointer-events: none;
+  }
+  
+   .menuOverlay .overlayMainText .text1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+   .menuOverlay .overlayMainText .text1 p {
+    font-size: 50px;
+    font-family: "GilroyRegular";
+    /* margin-top: 100px; */
+    margin-top:65px;
+    -webkit-transition: 0.5s color;
+    transition: 0.5s color;
+    pointer-events: none;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+   .menuOverlay .overlayMainText .text1 p a {
+    -webkit-transition: 0.5s color !important;
+    transition: 0.5s color !important;
+    color: black;
+  }
+  
+   .menuOverlay .overlayMainText .text1 p:hover a {
+    color: #ff0335;
+    -webkit-transition: 0.5s color !important;
+    transition: 0.5s color !important;
+  }
+  
+   .menuOverlay .overlayMainText .text2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 10%;
+  }
+  
+   .menuOverlay .overlayMainText .text2 p {
+    font-size: 50px;
+    font-family: "GilroyRegular";
+    margin-top: 100px;
+    -webkit-transition: 0.5s color;
+    transition: 0.5s color;
+    cursor: pointer;
+    pointer-events: none;
+    opacity: 0;
+  }
+  
+   .menuOverlay .overlayMainText .text2 p:hover {
+    -webkit-transition: 0.5s color !important;
+    transition: 0.5s color !important;
+    color: #ff0335;
+  }
+  /* .menuOverlay .overlayMainText #text1_4{
+    opacity: 1;
+  } */
+  /* .menuOverlay .menu-img{
+    width: 100%;
+    text-align: center;
+    height: 20vh;
+    position: relative;
+    pointer-events: none;
+  }
+  .menuOverlay .menu-img img{
+    width: 55%;
+    object-fit: contain;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 5px;
+    top: auto;
+    pointer-events: none;
+    opacity: 0;
+  } */
+
+  @media only screen and (max-width: 997px){
+    /* .menuOverlay .menu-img img{
+      bottom:70px;
+      width: 70%;
+    } */
+    .menuOverlay .overlayMainText {
+      height: 70vh;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .menuOverlay .overlayMainText {
+      height: 60vh;
+    }
+    /* .menuOverlay .menu-img img{
+      bottom:90px;
+    } */
+   .menuOverlay .fText {
+    width: 100%;
+    margin-top: -50px;
+    pointer-events: none !important;
+  }
+   .menuOverlay .fText .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    width: 100%;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap:30px;
+  }
+   .menuOverlay .fText .container div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+   .menuOverlay .fText .container div span {
+    font-size: 19px !important;
+    border-right: none;
+    padding: 0;
+    margin-right: 0;
+    margin-top: 10px !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+  }
+   .menuOverlay .fText p {
+    width: 100% !important;
+    font-size: 20px !important;
+    text-align: center !important;
+  }
+   .menuOverlay .overlayMainText .text1 p {
+    margin-top: 20px !important;
+  }
+   .menuOverlay .overlayMainText .text1 a {
+    font-size: 21px;
+  }
+ 
+}
+@media only screen and (max-height: 800px){
+  .menuOverlay .overlayMainText .text1 p{
+    margin-top: 30 !important;
+  }
+}
+
+@media only screen and (max-width: 565px){
+  .menuOverlay .overlayMainText{
+    height: initial;
+  }
+  #overlayMainText{
+    margin-top:80px;
+  }
+  .menuOverlay .overlayMainText .text1 p{
+    margin-bottom: 20px;
+    font-size: initial;
+  }
+  .menuOverlay .overlayMainText .text1{
+    margin-bottom:10px;
+  }
+  .menuOverlay .fText{
+    margin-top:10px;
+  }
+  .menuOverlay .fText .container div span{
+    margin-bottom: 15px;
+  }
+  .menuOverlay .fText .container{
+    display: block;
+  }
+  .menuOverlay .fText p{
+    margin-bottom:10px;
+  }
+}

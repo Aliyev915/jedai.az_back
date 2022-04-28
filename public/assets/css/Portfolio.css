@@ -1,0 +1,385 @@
+
+ .projectsDone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  
+   .projectsDone .titleContainer2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 133px;
+    width: 85%;
+  }
+  
+   .projectsDone .titleContainer2 p {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "GilroyRegular";
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+  }
+  
+  
+   .projectsDone .titleContainer2 hr {
+    margin-left: 40px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    width: 30%;
+    opacity: 0.5;
+  }
+  
+   .projectsDone .buttonContainer {
+    width: 85%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+   .projectsDone .buttonContainer button {
+    float: left;
+    margin-left: 20px;
+    height: 38px;
+    width: auto;
+    padding: 5px 20px;
+    border-radius: 25px;
+    border: none;
+    background: #1D84C4;
+    color: white;
+    font-family: "GilroyRegular";
+    border: 1px solid  white;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+   .projectsDone .buttonContainer button:nth-child(1) {
+    margin: 0;
+  }
+  
+   .projectsDone .buttonContainer button:nth-child(1):hover {
+    border: 1px solid  #225A93;
+    color: #225A93;
+    background: #EEEE;
+  }
+  
+   .projectsDone .buttonContainer button:nth-child(1):focus {
+    outline: none;
+    -webkit-transition: 1s;
+    transition: 1s;
+    background-color: crimson;
+    color: white;
+    border: 1px solid white;
+  }
+  
+   .projectsDone .buttonContainer button:hover {
+    border: 1px solid  #1D84C4;
+    background-color: #fff;
+    color: #1D84C4;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+   .projectsDone .buttonContainer button:focus {
+    outline: none;
+    -webkit-transition: 1s;
+    transition: 1s;
+    background-color: crimson;
+    color: white;
+    border: 1px solid white;
+  }
+  
+   .projectsDone .projects {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    width: 85%;
+    grid-gap: 1px;
+    /* padding-bottom:100px; */
+  }
+  
+   .projectsDone .projects .card {
+    width: 100%;
+    height: 390px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+  
+  }
+   .projectsDone .projects .card  > *{
+    pointer-events: none;
+  }
+  
+ 
+  
+   .projectsDone .projects .card p a {
+    text-decoration: none;
+    color: white;
+    pointer-events: all;
+  }
+   .projectsDone .projects .card .nameOverlay a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  
+  
+  
+   .projectsDone .projects .card {
+    background: url("../images/02.png") center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .projectsDone .projects .card:hover .overlayProtfolio {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  .overlayHover 
+  {
+    opacity: 1 !important;
+    transform: translateY(0px) !important;
+  }
+
+
+   .projectsDone .projects .card .overlayProtfolio {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+        opacity: 0;
+    width: 100%;
+    height: 390px;
+    transition: opacity .5s cubic-bezier(.785,.135,.15,.86), 
+                transform .5s cubic-bezier(.785,.135,.15,.86), 
+                -webkit-transform .5s cubic-bezier(.785,.135,.15,.86);
+    background-color: #005d9a;
+    /*-webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    opacity: 0;*/
+    transform: translateY(550px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .projectsDone .projects .card .overlayProtfolio .overlayElements {
+      transition-delay: 0.9s;
+      width: 90%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      row-gap:75px;
+  }
+  
+   .projectsDone .projects .card .overlayProtfolio .titleOverlay {
+    opacity: 0;
+    font-size: 25px;
+    transform: translateY(5px);
+    font-family: "GilroyRegular";
+    color: white;
+    transition: opacity .5s .45s cubic-bezier(.215,.61,.355,1),transform .5s .45s cubic-bezier(.215,.61,.355,1),-webkit-transform .5s .45s cubic-bezier(.215,.61,.355,1);
+  }
+  
+   .projectsDone .projects .card .overlayProtfolio .nameOverlay {
+    opacity: 0;
+    pointer-events: none;
+    font-size: 20px;
+    font-family: "GilroyRegular";
+    color: white;
+    transform: translateY(30px);
+    transition:opacity .5s .55s cubic-bezier(.215,.61,.355,1),transform .5s .55s cubic-bezier(.215,.61,.355,1),-webkit-transform .5s .55s cubic-bezier(.215,.61,.355,1);
+  }
+  .projectsDone .projects .card .overlayProtfolio .nameOverlay .finger {
+    transform: rotate(0deg);
+    transition: transform .9s .65s cubic-bezier(.68,.94,.6,-0.47);
+  }
+
+  .projectsDone .projects .card .overlayProtfolio .tagsOverlay{
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 5px;
+  }
+
+   .projectsDone .projects .card .overlayProtfolio .tagsOverlay div{
+      font-size: 15px;
+      opacity: 0;
+      transform: translate3d(0,26px,0);
+      transition: opacity .5s .65s cubic-bezier(.215,.61,.355,1),transform .5s .65s cubic-bezier(.215,.61,.355,1),-webkit-transform .5s .65s cubic-bezier(.215,.61,.355,1);
+  }
+
+  .projectsDone .projects .card .overlayProtfolio .tagsOverlay div:after {
+    content: ",";
+  }
+  .projectsDone .projects .card .overlayProtfolio .tagsOverlay div:last-child:after {
+    content: "";
+  }
+
+   .projectsDone .projects .card:hover .overlayProtfolio .titleOverlay {
+    opacity: 1;
+
+  }
+  .titleOverlayHover {
+    opacity: 1 !important;
+  }
+   .projectsDone .projects .card:hover .overlayProtfolio .nameOverlay {
+      opacity: 1;
+      transform: translateY(0px);
+  }
+  
+  .projectsDone .projects .card:hover .overlayProtfolio .nameOverlay .finger {
+       transform: rotate(-40deg);    
+  }
+  .nameOverlayHover {
+      opacity: 1 !important;
+      transform: translateY(0px) !important;
+  }
+  
+  .fingerHover {
+       transform: rotate(-40deg);    
+  }
+
+  .projectsDone .projects .card:hover .overlayProtfolio .tagsOverlay div{
+      opacity: 1;
+      transform: translate3d(0,0px,0);
+  }
+  .tagsHover{
+      opacity: 1 !important;
+      transform: translate3d(0,0px,0) !important;
+  }
+  
+   .projectsDone .hamisinaBax {
+    width: 85%;
+    height: 40px;
+    margin-top: 50px;
+  }
+  
+   .projectsDone .hamisinaBax button {
+    float: right;
+    background-color: #fff;
+    border: none;
+  }
+  
+   .projectsDone .hamisinaBax button:focus {
+    outline: none;
+    -webkit-transform: translateX(150px);
+            transform: translateX(150px);
+    -webkit-transition: 1s;
+    transition: 1s;
+    opacity: 0;
+  }
+  
+   .projectsDone .hamisinaBax p {
+    float: right;
+    font-family: "GilroyRegular";
+    font-size: 30px;
+    margin-right: 40px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+
+
+
+
+
+  @media only screen and (max-width: 700px) {
+     .projectsDone .buttonContainer {
+        -webkit-box-align: center !important;
+            -ms-flex-align: center !important;
+                align-items: center !important;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-left: -10px !important;
+      }
+       .projectsDone .buttonContainer button {
+        margin-left: 0px !important;
+        margin-top: 10px !important;
+        margin-left: 10px !important;
+      }
+       .projectsDone .projects {
+        -ms-grid-columns: (1fr)[1] !important;
+            grid-template-columns: repeat(1, 1fr) !important;
+        width: 100% !important;
+      }
+       .projectsDone .projects .card > * {
+        -webkit-touch-callout: none;
+        /* iOS Safari */
+        -webkit-user-select: none;
+        /* Safari */
+        /* Konqueror HTML */
+        -moz-user-select: none;
+        /* Old versions of Firefox */
+        -ms-user-select: none;
+        /* Internet Explorer/Edge */
+        user-select: none;
+        /* Non-prefixed version, currently
+                                                    supported by Chrome, Edge, Opera and Firefox */
+        -webkit-tap-highlight-color: transparent;
+      }
+       .projectsDone .projects a {
+        -webkit-touch-callout: none;
+        /* iOS Safari */
+        -webkit-user-select: none;
+        /* Safari */
+        /* Konqueror HTML */
+        -moz-user-select: none;
+        /* Old versions of Firefox */
+        -ms-user-select: none;
+        /* Internet Explorer/Edge */
+        user-select: none;
+        /* Non-prefixed version, currently
+                                                    supported by Chrome, Edge, Opera and Firefox */
+        -webkit-tap-highlight-color: transparent;
+      }
+       .projectsDone .projects .card {
+        width: 100% !important;
+        margin-top: 1px !important;
+      }
+     
+       .projectsDone .projects .card a {
+        width: 100% !important;
+      }
+       .projectsDone .projects .card .overlayProtfolio .titleOverlay {
+        font-size: 18px !important;
+      }
+       .projectsDone .projects .card .overlayProtfolio .nameOverlay {
+        font-size: 15px !important;
+      }
+       .projectsDone .projects .card .overlayProtfolio p:nth-child(3) span {
+        font-size: 16px !important;
+      }
+       .projectsDone .hamisinaBax {
+        margin-top: 80px;
+        margin-bottom: 30px;
+      }
+       .projectsDone .hamisinaBax p {
+        margin-right: 0px !important;
+      }
+
+      
+
+
+
+  }
+
+
+  .hamisinaBax{
+    margin-bottom: 50px;
+  }

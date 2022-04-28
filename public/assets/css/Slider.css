@@ -1,0 +1,192 @@
+
+ .slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 700px;
+    background-color: #EEEE;
+  }
+  
+   .slider .titleContainer6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 100px;
+    width: 85%;
+  }
+  
+   .slider .titleContainer6 p {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "GilroyRegular";
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+   .slider .titleContainer6 hr {
+    margin-left: 40px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    width: 30%;
+    opacity: 0.5;
+  }
+  
+   .slider .glideEditSlider {
+    width: 75% !important;
+    margin-top: 50px;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  
+   .slider .button1 {
+    margin-left: -5%;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  
+   .slider .button1 img {
+    width: 25px;
+    height: auto;
+  }
+  
+   .slider .button2 {
+    margin-right: -5%;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  
+   .slider .button2 img {
+    width: 25px;
+    height: auto;
+  }
+
+   .slider .titleContainer6 h2 {
+    font-size: 25px;
+    font-family: "GilroyRegular";
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+  }
+  
+   .slider .button1 img {
+    width: 25px;
+  
+  }
+   .slider .button2 img {
+    width: 25px;
+  
+  }
+  .secondPage .slider .button2 {
+    margin-right: -5%;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .slider .glide__track {
+      width: 100%;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 700px) {
+     .slider .titleContainer6 {
+        width: 100%;
+      }
+       .slider .titleContainer6 p {
+        width: 100%;
+        text-align: center;
+        font-size: 34px;
+      }
+      .secondPage .slider .titleContainer6 h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 34px;
+      }
+       .slider .glide__track {
+        width: 100% !important;
+      }
+       .slider .glide__track .glide__slide {
+        width: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+      }
+       .slider .button1 img {
+        width: 20px !important;
+        height: auto;
+      }
+       .slider .button2 img {
+        width: 20px !important;
+        height: auto;
+      }
+
+
+
+  }
+  /* Media Querry 700 */
+
+
+
+  
+@media only screen and (max-width: 530px) {
+     .slider .button2 ,  .secondPage .slider .button2{
+      margin-right: -10%;
+      
+    }
+     .slider .button1 , .secondPage .slider .button1 {
+      margin-left: -10%;
+      
+    }
+  }
+  @media only screen and (max-width: 450px) {
+     .slider .button2 , .secondPage .slider .button2 {
+      margin-right: -10%;
+      
+    }
+     .slider .button1 {
+      margin-left: -10%;
+      
+    }
+  }
+  @media only screen and (max-width: 406px) {
+     .slider .button2, .secondPage .slider .button2 {
+      margin-right: -15%;
+      
+    }
+     .slider .button1 , .secondPage .slider .button1 {
+      margin-left: -15%;
+      
+    }
+  }
+  @media only screen and (max-width: 370px) {
+     .slider .button2 , .secondPage .slider .button2 {
+      margin-right: -20%;
+      
+    }
+     .slider .button1 , .secondPage .slider .button1 {
+      margin-left: -20%;
+      
+    }
+  }

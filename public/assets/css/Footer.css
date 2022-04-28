@@ -1,0 +1,219 @@
+/* Media Queryy 700 */
+ footer {
+    width: 100%;
+    height: 400px;
+    background-color: #225A93;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+   footer a {
+    text-decoration: none;
+    color: white;
+  }
+  
+   footer p {
+    margin: 0;
+    color: white;
+  }
+  
+   footer .topFooter {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1.5fr 0.5fr;
+        grid-template-columns: 1.5fr 0.5fr;
+    width: 90%;
+    margin-top: 90px;
+  }
+  
+   footer .topFooter .links {
+    font-size: "GilroyRegular";
+    font-size: 1.6rem;
+    display: flex;
+    row-gap:30px;
+    column-gap: 30px;
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: 390px) and (max-width: 500px)
+  {
+    footer .topFooter .links {
+    font-size: "GilroyRegular";
+    font-size: 1.6rem;
+    display: flex;
+    row-gap:30px;
+    column-gap: 50px;
+    flex-wrap: wrap;
+  }
+
+  }
+  
+ footer .topFooter .links a {
+}
+
+ footer .topFooter .imgsContainer {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+ footer .topFooter .imgsContainer img {
+  height: auto;
+  margin-left: 10px;
+}
+
+ footer .topFooter .numbersContainer {
+  font-size: "GilroyRegular";
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  row-gap:30px;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+ footer .topFooter .numbersContainer a {
+}
+
+ footer hr {
+  width: 100%;
+  height: 0.5px;
+  background-color: white;
+  border: none;
+  opacity: 0.3;
+  margin-top: 100px;
+}
+
+ footer .deepFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 85%;
+  margin-top: 40px;
+}
+
+ footer .deepFooter p {
+  font-family: "GilroyRegular";
+  font-size: 22px;
+  font-style: normal;
+  color: #E5E5E5;
+}
+
+ footer .deepFooter img {
+  float: right;
+  width: 150px;
+  height: auto;
+}
+
+
+  @media only screen and (max-width: 700px) {
+     footer {
+        height: auto !important;
+        padding-bottom: 50px;
+      }
+       footer hr {
+        margin-top: 25px !important;
+      }
+       footer .topFooter {
+        -ms-grid-columns: 1fr;
+            grid-template-columns: 1fr;
+        width: 100%;
+      }
+       footer .topFooter .links {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+      }
+       footer .topFooter .links a {
+        margin-left: 0 !important;
+        font-size: 18px !important;
+      }
+       footer .topFooter .imgsContainer {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        margin-right: 0px !important;
+        margin-top: 30px;
+        -webkit-box-ordinal-group: 4;
+            -ms-flex-order: 3;
+                order: 3;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+       footer .topFooter .imgsContainer img {
+        margin-left: 0 !important;
+      }
+       footer .topFooter .numbersContainer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        margin-top: 30px;
+      }
+       footer .topFooter .numbersContainer a {
+        margin-left: 0 !important;
+        font-size: 15px !important;
+      }
+       footer .deepFooter {
+        margin-top: 10px !important;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 90%;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+       footer .deepFooter p {
+        width: 100% !important;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 20px;
+      }
+       footer .deepFooter img {
+        width: 100px;
+        margin-top: 20px;
+        height: auto;
+      }
+
+      
+    }
+
+
+
+    @media only screen and (max-width: 567px) {
+      footer .topFooter .numbersContainer, footer .topFooter .links{
+        flex-direction: column;
+        align-items: center;
+      }
+      footer .topFooter{
+        margin-top:65px;
+      }
+    }
+/* Media Queryy 700 */

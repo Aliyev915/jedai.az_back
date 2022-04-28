@@ -1,0 +1,503 @@
+
+  
+
+  .formAndIframe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: #eeeeee;
+  }
+  .formAndIframe.home, .formAndIframe.home .form .formContainer form .inputs input, .formAndIframe.home .form .formContainer form textarea{
+    background-color: #fff;
+  }
+  
+  .formAndIframe iframe {
+    width: 45%;
+    height: 550px;
+  }
+  
+  .formAndIframe .form {
+    width: 55%;
+    height: auto;
+    margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .formAndIframe .form .titleContainer7 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  
+  
+  .formAndIframe .form .titleContainer7 p {
+    
+    font-size: 25px;
+    font-family: "GilroyRegular";
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 0.7;
+    margin: 0;
+    margin-top: 45px;
+    margin-left: 45px;
+    margin-right: 5%;
+  }
+  
+  .formAndIframe .form .titleContainer7 hr {
+    height: 1px;
+    background-color: black;
+    border: none;
+    opacity: 0.5;
+    width: 35%;
+    margin-left: 0%;
+    margin-top: 45px;
+  }
+  
+  .formAndIframe .form .titleContainer7_2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  
+  .formAndIframe .form .titleContainer7_2 p {
+    font-size: 1.75rem;
+    font-family: "GilroyRegular";
+    color: rgba(0, 0, 0, 0.5);
+    width: 90%;
+    opacity: 0.7;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 45px;
+  }
+  
+  .formAndIframe .form .formContainer {
+    width: 90%;
+  }
+  
+  .formAndIframe .form .formContainer form {
+    margin-top: 40px;
+  }
+  
+  .formAndIframe .form .formContainer form .inputs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    font-size: 1.5rem;
+    float: left;
+  }
+  
+  .formAndIframe .form .formContainer form .inputs input {
+    width: 280px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 30px;
+    border-radius: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    -webkit-transition: 1s;
+    transition: 1s;
+    font-family: "GilroyRegular";
+    color: black;
+    font-size: 1rem;
+    background-color: #eeeeee;
+  }
+  
+  .formAndIframe .form .formContainer form .inputs input::-webkit-input-placeholder {
+    font-family: "GilroyRegular";
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .formAndIframe .form .formContainer form .inputs input:-ms-input-placeholder {
+    font-family: "GilroyRegular";
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .formAndIframe .form .formContainer form .inputs input::-ms-input-placeholder {
+    font-family: "GilroyRegular";
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .formAndIframe .form .formContainer form .inputs input::placeholder {
+    font-family: "GilroyRegular";
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .formAndIframe .form .formContainer form .inputs input:focus {
+    outline: none;
+    border: 2px solid #1D84C4;
+  }
+  
+  .formAndIframe .form .formContainer form .inputs input:focus::-webkit-input-placeholder {
+    color: #1D84C4;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  .formAndIframe .form .formContainer form .inputs input:focus:-ms-input-placeholder {
+    color: #1D84C4;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  .formAndIframe .form .formContainer form .inputs input:focus::-ms-input-placeholder {
+    color: #1D84C4;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  .formAndIframe .form .formContainer form .inputs input:focus::placeholder {
+    color: #1D84C4;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  .formAndIframe .form .formContainer form .inputs input:hover {
+    border: 2px solid #1D84C4;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  .formAndIframe .form .formContainer form textarea {
+    height: 190px;
+    float: left;
+    margin-top: 0px;
+    resize: none;
+    margin-left: 3%;
+    width: 320px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 30px 30px;
+    font-size: 1.2rem;
+    font-family: "GilroyBold";
+    color: black;
+    font-family: "GilroyRegular";
+    background-color: #eeeeee;
+  }
+  
+  .formAndIframe .form .formContainer form textarea::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .formAndIframe .form .formContainer form textarea:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .formAndIframe .form .formContainer form textarea::-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .formAndIframe .form .formContainer form textarea::placeholder {
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .formAndIframe .form .formContainer form textarea:focus {
+    outline: none;
+    border: 2px solid  #1D84C4;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  .formAndIframe .form .formContainer form textarea:focus::-webkit-input-placeholder {
+    color: #1D84C4;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  .formAndIframe .form .formContainer form textarea:focus:-ms-input-placeholder {
+    color: #1D84C4;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  .formAndIframe .form .formContainer form textarea:focus::-ms-input-placeholder {
+    color: #1D84C4;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  .formAndIframe .form .formContainer form textarea:focus::placeholder {
+    color: #1D84C4;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  .formAndIframe .form .formContainer form textarea:hover {
+    border: 2px solid  #1D84C4;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  .formAndIframe .form .formContainer form textarea::-webkit-input-placeholder {
+    font-family: "GilroyRegular";
+  }
+  
+  .formAndIframe .form .formContainer form textarea:-ms-input-placeholder {
+    font-family: "GilroyRegular";
+  }
+  
+  .formAndIframe .form .formContainer form textarea::-ms-input-placeholder {
+    font-family: "GilroyRegular";
+  }
+  
+  .formAndIframe .form .formContainer form textarea::placeholder {
+    font-family: "GilroyRegular";
+  }
+  
+  .formAndIframe .form button {
+    float: left;
+    cursor: pointer;
+    clear: left;
+    background: #1D84C4;
+    border: 2px solid rgba(196, 196, 196, 0.5);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 45px;
+    width: 200px;
+    border-radius: 40px;
+    color: white;
+    font-family: "GilroyRegular";
+    font-size: 16px;
+    border: 2px solid  #1D84C4;
+    -webkit-transition: 1s;
+    transition: 1s;
+    margin-top: 25px;
+    margin-left: 450px;
+  }
+  
+  .formAndIframe .form button:hover {
+    border: 2px solid  #1D84C4;
+    background-color: transparent;
+    color: #1D84C4;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .formAndIframe .form button:focus {
+    outline: none;
+    background-color: #1D84C4;
+    color: white;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    
+      .formAndIframe iframe {
+        width: 100%;
+      }
+      .formAndIframe .form {
+        width: 100%;
+      }
+      .btnOrderLink 
+    {
+        align-self: center;
+        text-decoration: none;
+    }
+    .btnOrder
+    {
+        margin-top: 10px;
+        width: 170px !important;
+        background-color: transparent;
+        font-size: 18px;
+        height: 45px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 2px solid  #225a93;
+        font-family: "GilroyRegular";
+        color: rgba(0, 0, 0, 0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        margin-top: 25px;
+        margin-right: 0px;
+    }
+    }
+
+    @media only screen and (max-width: 674px) {
+        .formAndIframe .formContainer {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-align: center !important;
+              -ms-flex-align: center !important;
+                  align-items: center !important;
+        }
+        .formAndIframe .form {
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          align-items: center;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+        }
+        .formAndIframe .form .textArea {
+          margin-top: 20px !important;
+          margin-left: 0px !important;
+          width: 78.5% !important;
+        }
+        .formAndIframe .form input {
+          width: 100% !important;
+        }
+        .formAndIframe .form .inputs {
+          width: 85% !important;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+        }
+        .formAndIframe .form .gonderButton {
+          margin-left: 0px !important;
+        }
+    }
+
+  
+  
+  
+  @media only screen and (max-width: 700px) {
+
+    
+      .formAndIframe {
+        height: auto !important;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+      }
+      .formAndIframe iframe {
+        width: 100%;
+        height: 450px !important;
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+      }
+      .formAndIframe .form {
+        width: 100% !important;
+        height: auto !important;
+        padding-bottom: 50px !important;
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+      }
+      .formAndIframe .form .formContainer {
+        -webkit-box-pack: start !important;
+            -ms-flex-pack: start !important;
+                justify-content: start !important;
+      }
+      .formAndIframe .form .formContainer form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-top: 0 !important;
+        width: 100% !important;
+      }
+      .formAndIframe .form .formContainer form .inputs {
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+        width: 75% !important;
+        margin-top: 25px !important;
+        -webkit-box-align: center !important;
+            -ms-flex-align: center !important;
+                align-items: center !important;
+      }
+      .formAndIframe .form .formContainer form .inputs input {
+        width: 100% !important;
+        font-size: 15px !important;
+      }
+      .formAndIframe .form .formContainer form textarea {
+        margin-top: 30px;
+        width: 70% !important;
+        margin-left: 0 !important;
+        font-size: 15px !important;
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+      }
+      .formAndIframe .form .formContainer form .gonderButton {
+        margin-left: 0 !important;
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+        margin-top: 40px;
+      }
+      .formAndIframe .form .titleContainer7 {
+        width: 100%;
+        margin-top: 60px;
+      }
+      .formAndIframe .form .titleContainer7 p {
+        margin-left: 0 !important;
+        width: 95%;
+        text-align: center;
+        font-size: 18px;
+      }
+      .formAndIframe .form .titleContainer7_2 {
+        width: 95%;
+      }
+      .formAndIframe .form .titleContainer7_2 p {
+        margin-left: 0 !important;
+        width: 100%;
+        text-align: center;
+        font-size: 17px;
+      }
+      
+
+  }

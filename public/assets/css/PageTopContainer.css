@@ -1,0 +1,259 @@
+ .topContainer {
+    background: url("../images/overlayForNavbar.png");
+    background-color: #225A93;
+    width: 100%;
+    height: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+   .topContainer .navbarContainer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100px;
+    position: -webkit-sticky;
+    position: sticky;
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    background-color: none;
+  }
+   .topContainer .navbar {
+    background-size: cover;
+    width: 90%;
+    height: 45px;
+  }
+   .topContainer .navbar .logoAndText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    float: left;
+    background-color: none;
+  }
+   .topContainer .navbar img {
+    width: 193px;
+    height: 36px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+   .topContainer .navbar .phoneNumber {
+    font-size: 18px;
+    word-spacing: 6px;
+    color: white;
+  }
+   .topContainer .navbar .phoneNumber a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+   .topContainer .navbar p {
+    margin-left: 50px;
+    color: white;
+    font-family: "GilroyRegular";
+  }
+
+
+
+   .topContainer .navbar .menuIcon {
+    width: 100px;
+    height: 45px;
+    float: right;
+    margin-top: 3px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+  }
+   .topContainer .navbar .menuIcon:hover .downIcon {
+    width: 50px;
+  }
+  
+   .topContainer .navbar .menuIcon:focus {
+    outline: none;
+  }
+   .topContainer .navbar .menuIcon .topIcon {
+    width: 50px;
+    height: 6px;
+    background-color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+   .topContainer .navbar .menuIcon .downIcon {
+    width: 35px;
+    height: 6px;
+    margin-top: 15px;
+    background-color: white;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+   .topContainer .subNav {
+    width: 85%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 198px;
+  }
+   .topContainer .subNav .title {
+    font-size: 65px ;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-family: "GilroyRegular";
+    color: white;
+    word-spacing: 30px;
+  }
+  
+   .topContainer .subNav .subTitle {
+    margin-top: 29px;
+    padding-left: 6.5px;
+    font-size: 25px;
+    line-height: 43px;
+    color: white;
+    width: 70%;
+    font-family: "GilroyRegular";
+    line-height: 35px;
+  }
+  
+   .topContainer hr {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border: none;
+    top: 530px;
+    background-image: url("../images/overlayForNavbar.png") repeat;
+  }
+  
+   .topContainer .subTitle2 {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: url("../images/overlayForNavbar.png") repeat;
+  }
+  
+   .topContainer .subTitle2 p {
+    width: 85%;
+    margin: 0;
+    font-size: 25px;
+    color: white;
+    font-family: "GilroyRegular";
+    line-height: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 35px;
+  }
+  
+   .topContainer .subTitle2 p span {
+    width: 70%;
+  }
+  
+   .topContainer .subTitle2 a {
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: default;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+   .topContainer .subTitle2 button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 40px;
+    cursor: pointer;
+  }
+  
+   .topContainer .subTitle2 button:focus {
+    outline: none;
+  }
+  
+
+
+  @media only screen and (max-width: 1250px) {
+    
+      .topContainer .navbar .menuIcon
+     {
+         margin-top: 1px !important;
+     }
+   }
+
+
+
+   @media only screen and (max-width: 700px) {
+     .topContainer {
+        padding-bottom: 100px !important;
+        height: auto;
+      }
+    
+   }
+   @media only screen and (max-width: 1130px){
+
+    .topContainer .subNav{
+      margin-top:170px;
+    }
+    .topContainer .subTitle2{
+      margin-top:30px;
+    }
+   }
+   @media only screen and (max-width: 991px){
+    .topContainer .subNav{
+      margin-top:140px;
+    }
+    .topContainer .subNav .title{
+      font-size: 58px;
+      word-spacing: 5px;
+    }
+    .topContainer .subNav .subTitle{
+      width: 95%;
+      font-size: 22px;
+    }
+    .topContainer .subTitle2 p{
+      font-size: 22px;
+    }
+
+   }
